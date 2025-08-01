@@ -50,7 +50,7 @@ file-integrity-checker/
    
    Description: Updates hash for a specific file. 
 
-# Output: 
+# Results: 
 
     python integrity_check.py init logs
     

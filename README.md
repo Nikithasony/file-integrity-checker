@@ -19,11 +19,17 @@ This project was developed as part of a cybersecurity hands-on evaluation.
 
 # Project Structure:
 file-integrity-checker/
+
 │
+
 ├── integrity_check.py (Main script)
+
 ├── file_hashes.json (Stored hashes)
+
 ├── README.md (Documentation)
+
 └── logs/
+
     └── app.log (Sample log file)
 
 # Usage: 

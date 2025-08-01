@@ -66,7 +66,10 @@ Status: Modified (Hash mismatch)
 Tampered files: logs/app.log
  
     python integrity_check.py check logs/auth.log
+    
    ![has2](https://github.com/user-attachments/assets/1f7ef483-13b0-4a84-ae36-cc8eb263ddad)
+   
+   Status: Unmodified
 
 python integrity_check.py update logs/app.log
 
@@ -74,7 +77,7 @@ python integrity_check.py update logs/app.log
 
 Hash updated successfully.
 
-Tech Stack:
+# Tech Stack:
 
 •	Python 3.10+
 

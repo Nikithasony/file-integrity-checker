@@ -20,13 +20,6 @@ This project was developed as part of a cybersecurity hands-on evaluation.
 # Project Structure:
 
 file-integrity-checker/
-│── integrity_check.py      # Main script
-│── file_hashes.json        # Stored hashes
-│── README.md               # Documentation
-└── logs/
-    └── app.log 
-    
-file-integrity-checker/
 
 ├── integrity_check.py (Main script)
 
@@ -41,21 +34,21 @@ file-integrity-checker/
 # Usage: 
 1. Initialize Hashes
    
-        Command: python integrity_check.py init logs
+   Command: python integrity_check.py init logs
     
-        Description: Stores hashes for all files in the logs/ directory. 
+   Description: Stores hashes for all files in the logs/ directory. 
 
 2. Check File Integrity
    
-        Command: python integrity_check.py check logs
+   Command: python integrity_check.py check logs
    
-        Description: Verifies if any file was modified or tampered with.
+   Description: Verifies if any file was modified or tampered with.
 
 3. Update Hash (after legitimate changes)
    
-       Command: python integrity_check.py update logs/app.log
+   Command: python integrity_check.py update logs/app.log
    
-       Description: Updates hash for a specific file. 
+   Description: Updates hash for a specific file. 
 
 # Output: 
 

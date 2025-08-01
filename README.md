@@ -52,14 +52,14 @@ file-integrity-checker/
 # Output: 
 
     python integrity_check.py init logs
-  ![has](https://github.com/user-attachments/assets/d2c4a2ce-7da5-498d-9e36-13e27df86b14)
-
-
+    
+![has](https://github.com/user-attachments/assets/d2c4a2ce-7da5-498d-9e36-13e27df86b14)
  
 Hashes stored successfully. 
 
     python integrity_check.py check logs/app.log
- ![has3](https://github.com/user-attachments/assets/d12c5498-44da-496e-ba37-cc5c99a9d086)
+   
+![has3](https://github.com/user-attachments/assets/d12c5498-44da-496e-ba37-cc5c99a9d086)
 
 Status: Modified (Hash mismatch) 
 
@@ -67,3 +67,19 @@ Tampered files: logs/app.log
  
     python integrity_check.py check logs/auth.log
    ![has2](https://github.com/user-attachments/assets/1f7ef483-13b0-4a84-ae36-cc8eb263ddad)
+
+python integrity_check.py update logs/app.log
+
+![has4](https://github.com/user-attachments/assets/d0feea2c-3231-41de-bdae-a42554fdb13b)
+
+Hash updated successfully.
+
+Tech Stack:
+
+•	Python 3.10+
+
+•	SHA-256 Hashing
+
+•	JSON-based hash storage 
+
+

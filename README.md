@@ -57,7 +57,7 @@ file-integrity-checker/
  
 Hashes stored successfully. 
 
-    python integrity_check.py check logs
+         python integrity_check.py check logs
     
 ![has2](https://github.com/user-attachments/assets/1f7ef483-13b0-4a84-ae36-cc8eb263ddad)
    

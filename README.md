@@ -59,24 +59,11 @@ file-integrity-checker/
 Hashes stored successfully. 
 
     python integrity_check.py check logs/app.log
- 
+ ![has3](https://github.com/user-attachments/assets/d12c5498-44da-496e-ba37-cc5c99a9d086)
+
 Status: Modified (Hash mismatch) 
 
 Tampered files: logs/app.log
  
     python integrity_check.py check logs/auth.log
-    ![WhatsApp Image 2025-08-01 at 13 37 15_02f1ecfc](https://github.com/user-attachments/assets/680291e7-61ea-440d-b8a5-df8a99909b9b)
-
-
-Status: Unmodified 
-
-    python integrity_check.py update logs/app.log
-
-Hash updated successfully. 
-
-# Tech Stack: 
- • Python 3.10+ 
- 
- • SHA-256 Hashing 
- 
- • JSON-based hash storage 
+   ![has2](https://github.com/user-attachments/assets/1f7ef483-13b0-4a84-ae36-cc8eb263ddad)

@@ -21,15 +21,10 @@ This project was developed as part of a cybersecurity hands-on evaluation.
 file-integrity-checker/
 
 │
-
 ├── integrity_check.py (Main script)
-
 ├── file_hashes.json (Stored hashes)
-
 ├── README.md (Documentation)
-
 └── logs/
-
     └── app.log (Sample log file)
 
 # Usage: 

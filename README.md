@@ -5,10 +5,15 @@ This project was developed as part of a cybersecurity hands-on evaluation.
 
 # Features: 
 • Accepts a directory or single log file as input 
+
 • Uses SHA-256 cryptographic hashing 
+
 • Stores hashes for first-time initialization 
+
 • Detects file tampering by comparing stored and current hashes 
+
 • Allows manual hash updates after legitimate changes 
+
 • Simple command-line usage  
 
 # Project Structure:

@@ -27,16 +27,22 @@ file-integrity-checker/
     └── app.log (Sample log file)
 
 # Usage: 
-1. Initialize Hashes 
-        Command: python integrity_check.py init logs 
+1. Initialize Hashes
+   
+        Command: python integrity_check.py init logs
+    
         Description: Stores hashes for all files in the logs/ directory. 
 
-2. Check File Integrity 
-        Command: python integrity_check.py check logs 
+3. Check File Integrity
+   
+        Command: python integrity_check.py check logs
+   
         Description: Verifies if any file was modified or tampered with. 
 
-3. Update Hash (after legitimate changes) 
-       Command: python integrity_check.py update logs/app.log 
+5. Update Hash (after legitimate changes)
+   
+       Command: python integrity_check.py update logs/app.log
+   
        Description: Updates hash for a specific file. 
 
 # Example Output: 

@@ -61,9 +61,7 @@ Hashes stored successfully.
  
 Status: Modified (Hash mismatch) 
 
-Tampered files: 
-
-logs/app.log
+Tampered files: logs/app.log
  
     python integrity_check.py check logs/auth.log
 
@@ -74,6 +72,6 @@ Status: Unmodified
 Hash updated successfully. 
 
 # Tech Stack: 
-      • Python 3.10+ 
-      • SHA-256 Hashing 
-      • JSON-based hash storage 
+ • Python 3.10+ 
+ • SHA-256 Hashing 
+ • JSON-based hash storage 

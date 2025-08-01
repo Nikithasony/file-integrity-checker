@@ -1,6 +1,7 @@
 # File Integrity Checker
 
 A Python-based CLI tool that verifies the integrity of log files to detect any unauthorized modifications or tampering.
+
 This project was developed as part of a cybersecurity hands-on evaluation.
 
 # Features: 
@@ -20,13 +21,9 @@ This project was developed as part of a cybersecurity hands-on evaluation.
 file-integrity-checker/
 │
 ├── integrity_check.py (Main script)
-
 ├── file_hashes.json (Stored hashes)
-
 ├── README.md (Documentation)
-
 └── logs/
-
     └── app.log (Sample log file)
 
 # Usage: 

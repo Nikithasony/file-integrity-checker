@@ -57,7 +57,13 @@ file-integrity-checker/
  
 Hashes stored successfully. 
 
-    python integrity_check.py check logs/app.log
+ python integrity_check.py check logs
+    
+   ![has2](https://github.com/user-attachments/assets/1f7ef483-13b0-4a84-ae36-cc8eb263ddad)
+   
+   Status: Unmodified
+
+    python integrity_check.py check logs
    
 ![has3](https://github.com/user-attachments/assets/d12c5498-44da-496e-ba37-cc5c99a9d086)
 
@@ -65,13 +71,7 @@ Status: Modified (Hash mismatch)
 
 Tampered files: logs/app.log
  
-    python integrity_check.py check logs/auth.log
-    
-   ![has2](https://github.com/user-attachments/assets/1f7ef483-13b0-4a84-ae36-cc8eb263ddad)
-   
-   Status: Unmodified
-
-python integrity_check.py update logs/app.log
+    python integrity_check.py update logs
 
 ![has4](https://github.com/user-attachments/assets/d0feea2c-3231-41de-bdae-a42554fdb13b)
 

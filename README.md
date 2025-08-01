@@ -41,7 +41,9 @@ file-integrity-checker/
    
         Command: python integrity_check.py check logs
    
-        Description: Verifies if any file was modified or tampered with. 
+        Description: Verifies if any file was modified or tampered with.
+   ![Uploading WhatsApp Image 2025-08-01 at 13.37.15_02f1ecfc.jpg…]()
+
 
 5. Update Hash (after legitimate changes)
    

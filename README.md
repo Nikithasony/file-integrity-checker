@@ -37,15 +37,13 @@ file-integrity-checker/
     
         Description: Stores hashes for all files in the logs/ directory. 
 
-3. Check File Integrity
+2. Check File Integrity
    
         Command: python integrity_check.py check logs
    
         Description: Verifies if any file was modified or tampered with.
-   ![Uploading WhatsApp Image 2025-08-01 at 13.37.15_02f1ecfc.jpg…]()
 
-
-5. Update Hash (after legitimate changes)
+3. Update Hash (after legitimate changes)
    
        Command: python integrity_check.py update logs/app.log
    
@@ -67,6 +65,8 @@ Status: Modified (Hash mismatch)
 Tampered files: logs/app.log
  
     python integrity_check.py check logs/auth.log
+    ![WhatsApp Image 2025-08-01 at 13 37 15_02f1ecfc](https://github.com/user-attachments/assets/680291e7-61ea-440d-b8a5-df8a99909b9b)
+
 
 Status: Unmodified 
 

@@ -47,18 +47,24 @@ file-integrity-checker/
 
 # Example Output: 
 
-> python integrity_check.py init logs 
+> python integrity_check.py init logs
+
 Hashes stored successfully. 
 
-> python integrity_check.py check logs/app.log 
+> python integrity_check.py check logs/app.log
+
 Status: Modified (Hash mismatch) 
+
 Tampered files: 
+
      - logs/app.log
  
-> python integrity_check.py check logs/auth.log 
+> python integrity_check.py check logs/auth.log
+
 Status: Unmodified 
 
-> python integrity_check.py update logs/app.log 
+> python integrity_check.py update logs/app.log
+
 Hash updated successfully. 
 
 # Tech Stack: 

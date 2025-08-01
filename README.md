@@ -28,7 +28,7 @@ file-integrity-checker/
 
 └── logs/
 
-    └── app.log (Sample log file)
+└── app.log (Sample log file)
 
 # Usage: 
 1. Initialize Hashes

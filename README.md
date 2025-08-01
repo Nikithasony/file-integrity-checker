@@ -63,7 +63,7 @@ Status: Modified (Hash mismatch)
 
 Tampered files: 
 
-     • logs/app.log
+logs/app.log
  
     python integrity_check.py check logs/auth.log
 

@@ -73,5 +73,7 @@ Hash updated successfully.
 
 # Tech Stack: 
  • Python 3.10+ 
+ 
  • SHA-256 Hashing 
+ 
  • JSON-based hash storage 

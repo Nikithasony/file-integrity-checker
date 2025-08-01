@@ -49,9 +49,12 @@ file-integrity-checker/
    
        Description: Updates hash for a specific file. 
 
-# Example Output: 
+# Output: 
 
     python integrity_check.py init logs
+  ![has](https://github.com/user-attachments/assets/d2c4a2ce-7da5-498d-9e36-13e27df86b14)
+
+
  
 Hashes stored successfully. 
 
